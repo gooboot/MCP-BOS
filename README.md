@@ -1,6 +1,22 @@
 # MCP-BOS: 可扩展的MCP服务器框架
 
-一个基于Model Context Protocol (MCP)的模块化、可扩展服务器框架，专为与Claude Desktop集成设计。
+# MCP-BOS: 模块化、可扩展的Model Context Protocol服务器框架
+
+使用基于约定的自动模块发现机制，为Claude Desktop打造的灵活MCP服务器框架。通过简洁的模块接口和声明式配置，轻松扩展AI应用功能，无需修改核心代码。支持FastMCP标准，包含完整工具、资源和提示模板注册能力。
+
+## 特性
+
+- 🧩 模块化设计：功能以自包含模块组织，便于扩展
+- 🔍 自动发现：约定优于配置的模块加载方式
+- ⚙️ 声明式配置：通过config.json灵活配置模块和参数
+- 🔌 即插即用：新功能只需添加符合接口的模块目录
+- 🔒 安全稳定：分层架构确保核心系统稳定可靠
+- 📝 详细日志：完善的日志系统便于调试与监控
+- 🖥️ Claude Desktop集成：与Claude深度集成，提供AI增强体验
+
+## 技术栈
+
+`Python` `FastMCP` `Model Context Protocol` `Claude Desktop` `JSON` `模块化设计` `微内核架构`
 
 ## 架构思想
 
