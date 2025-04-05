@@ -1,0 +1,19 @@
+{
+  "global": {
+    "server_name": "MCP Server",
+    "debug": true,
+    "log_level": "INFO",
+    "transport": "stdio",
+    "dependencies": ["mcp"]
+  },
+  "modules": {
+    "hello_world": {
+      "enabled": true,
+      "message": "Hello, {}!"
+    },
+    "my_module": {
+      "enabled": true,
+      "custom_param": "value"
+    }
+  }
+}
