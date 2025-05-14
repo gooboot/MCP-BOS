@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/gooboot-mcp-bos-badge.png)](https://mseep.ai/app/gooboot-mcp-bos)
+
 # MCP-BOS: 可扩展的MCP服务器框架
 
 # MCP-BOS: 模块化、可扩展的Model Context Protocol服务器框架
